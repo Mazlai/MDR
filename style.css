@@ -87,6 +87,9 @@ nav a:hover::before {
 .section-accueil {
     scroll-margin-top: 140px;
     height: 100vh;
+}
+
+.section-m-legales {
     font-family: 'Ubuntu', sans-serif;
 }
 
