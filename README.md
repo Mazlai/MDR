@@ -2,11 +2,11 @@
 
 ![Logo MDR](images/MDR.png)
 
-Bienvenue sur la page GitHub de l'équipe MDR, une équipe d'eSports passionnée de CS:GO.
+Bienvenue sur la page GitHub de l'équipe MDR, une équipe d'eSports passionnée de CS2.
 
 ## À Propos
 
-MDR va bien au-delà d'être une simple équipe d'eSports. Nous sommes une fraternité de joueurs passionnés unis par une quête commune : repousser les limites du possible dans l'univers de CS:GO. Chacun de nos membres apporte son propre style de jeu, sa stratégie unique et une détermination inébranlable sur le champ de bataille virtuel. Notre force réside dans notre capacité à anticiper les mouvements adverses, à coordonner nos attaques et à faire preuve d'une précision chirurgicale.
+MDR va bien au-delà d'être une simple équipe d'eSports. Nous sommes une fraternité de joueurs passionnés unis par une quête commune : repousser les limites du possible dans l'univers de CS2. Chacun de nos membres apporte son propre style de jeu, sa stratégie unique et une détermination inébranlable sur le champ de bataille virtuel. Notre force réside dans notre capacité à anticiper les mouvements adverses, à coordonner nos attaques et à faire preuve d'une précision chirurgicale.
 
 ## Composition de l'Équipe
 
@@ -27,7 +27,7 @@ L'Entry Fragger est la pointe de la lance, le premier à pénétrer dans la mêl
 
 ## Recrutement
 
-Nous cherchons à élargir notre famille MDR et à accueillir de nouveaux talents qui partagent notre passion pour CS:GO. Nous recherchons :
+Nous cherchons à élargir notre famille MDR et à accueillir de nouveaux talents qui partagent notre passion pour CS2. Nous recherchons :
 
 - Animateur : Quelqu'un qui sait animer, divertir et créer une ambiance positive au sein de notre communauté.
 - Coach volontaire : Une personne expérimentée, désireuse de partager ses connaissances et d'aider nos membres à progresser.
