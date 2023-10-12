@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-/* Main HTML */
+/*----- Main HTML -----*/
 
 body, html {
     margin: 0;
@@ -13,7 +13,7 @@ body, html {
     scroll-behavior: smooth;
 }
 
-/* Header & Footer */
+/*----- Header & Footer -----*/
 
 header {
     position: fixed;
@@ -80,15 +80,28 @@ nav a:hover::before {
     height:100px;
 }
 
-/* Corps de la page */
+/*----- Corps de la page -----*/
 
-section {
+/* Containers */
+
+.section-accueil {
     scroll-margin-top: 140px;
     height: 100vh;
     font-family: 'Ubuntu', sans-serif;
 }
 
-section article {
+#main-m-légales {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top:140px;
+}
+
+#main-m-légales section h1 {
+    text-align: center;
+    font-size: 2em; /* Taille du titre "Mentions Légales" */
+    padding-left: 10px; /* Espacement entre le texte et la barre */
+}
+
+.section-accueil article, #main-m-légales section article {
     text-align: justify;
     font-size: 1.2em; /* Taille de la police */
     padding: 20px 70px; /* Espacement autour du texte */
@@ -103,6 +116,80 @@ section article {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+#presentation {
+    background-color: rgba(0, 0, 0, 0.9); /* Couleur de fond plus sombre */
+}
+
+#equipe {
+    background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond encore plus sombre */
+}
+
+#recrutement {
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond la plus sombre */
+}
+
+#presentation-article, #equipe-article, #recrutement-article {
+    border-radius:5px;
+    padding-left: 10px;
+}
+
+#presentation-article {
+    border-left: 4px solid #ff5722;
+}
+
+#equipe-article {
+    border-left: 4px solid #4caf50;
+}
+
+#recrutement-article {
+    border-left: 4px solid #2196f3;
+}
+
+/* Containers */
+
+.div-m-legales-1, .div-m-legales-2, .div-m-legales-3 {
+    border-radius:5px;
+    padding-left: 10px;
+}
+
+.div-m-legales-1 {
+    border-left: 4px solid #4caf50;
+}
+
+.div-m-legales-2 {
+    border-left: 4px solid #af784c;
+}
+
+.div-m-legales-3 {
+    border-left: 4px solid #af4c8e;
+}
+
+/*----- Boutons et autres -----*/
+
+#image-du-z {
+    display: block; /* Permet de définir des marges automatiques */
+    margin-left: auto;
+    margin-right: auto;
+    border:2px solid #ff5722;
+    border-radius:5px;
+    box-shadow: 0 0 10px white;
+}
+
+hr {
+    width:170px;
+}
+
+.mail-m-legales {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.mail-m-legales:hover {
+    color:#ff5722;
+    text-decoration: underline;
+    transition: all 0.5s ease;
 }
 
 button.en-savoir-plus {
@@ -124,17 +211,13 @@ button.en-savoir-plus:hover {
     background-color: #e64a19; /* Couleur au survol */
 }
 
-#presentation {
-    background-color: rgba(0, 0, 0, 0.9); /* Couleur de fond plus sombre */
+#footer-m-legales {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#footer-m-legales:hover {
     color: #ff5722;
-}
-
-#equipe {
-    background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond encore plus sombre */
-    color: #4caf50;
-}
-
-#recrutement {
-    background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond la plus sombre */
-    color: #2196f3;
+    text-decoration: underline;
+    transition: all 0.5s ease;
 }

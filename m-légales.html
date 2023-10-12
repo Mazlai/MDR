@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/MDR.ico">
+    <title>MDR - Mentions Légales</title>
+</head>
+
+<body>
+    <header>
+        <img id="image-mdr" src="images/MDR.png" alt="Logo MDR">
+        <nav>
+            <ul>
+                <li><a href="#" id="h-item">Accueil</a></li>
+                <script>
+                    document.getElementById('h-item').addEventListener('click', function(e) {
+                        e.preventDefault(); // Empêche le comportement par défaut du lien
+                        window.location.href = 'https://mazlai.github.io/MDR/'; // Redirige vers la page d'accueil
+                    });
+                </script>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-m-légales">
+        <section> 
+            <article>
+                <h1>Mentions Légales</h1>
+                <hr><br><br>
+
+                <div class="div-m-legales-1">
+                    <h2>Éditeur du site</h2>
+                    <p>Mazlai</p>
+                </div>
+
+                <div class="div-m-legales-1">
+                    <h2>Hébergement</h2>
+                    <p>Ce site est hébergé par GitHub Pages.</p>
+                </div>
+
+                <div class="div-m-legales-1">
+                    <h2>Propriété intellectuelle</h2>
+                    <p>Tous les contenus présents sur le site, incluant, de manière non limitative, les textes, graphismes, logos, images, clips audio et vidéo, sont la propriété exclusive de MDR, à l'exception des marques, logos ou contenus appartenant à d'autres sociétés partenaires ou auteurs.</p>
+                    <p>Toute reproduction, distribution, modification, adaptation, retransmission ou publication, même partielle, de ces différents éléments est strictement interdite sans l'accord exprès par écrit de MDR.</p>
+                </div>
+
+                <div class="div-m-legales-2">
+                    <h2>Confidentialité et protection des données</h2>
+                    <p>Conformément à la loi "Informatique et Libertés" du 6 janvier 1978 modifiée et au Règlement Général sur la Protection des Données (RGPD), vous disposez d'un droit d'accès, de rectification et de suppression des données vous concernant. </p>
+                    <p>Pour exercer ce droit ou pour toute question sur le traitement de vos données, vous pouvez contacter MDR à l'adresse suivante : <a class="mail-m-legales" href="mailto:contact@mdresports.com">contact@mdresports.com</a>.</p>
+                </div>
+
+                <div class="div-m-legales-3">
+                    <h2>Limitations de responsabilité</h2>
+                    <p>MDR ne saurait être tenue pour responsable des erreurs rencontrées sur le site, problèmes techniques, interprétation des informations publiées et conséquences de leur utilisation. </p>
+                    <p>En conséquence, l'utilisateur reconnaît utiliser ces informations sous sa responsabilité exclusive.</p>
+                </div>
+
+                <div class="div-m-legales-3">
+                    <h2>Modifications des mentions légales</h2>
+                    <p>MDR se réserve le droit de modifier, à tout moment et sans préavis, les présentes mentions légales afin de les adapter aux évolutions du site et/ou de son exploitation.</p>
+                </div>
+
+                <div class="div-m-legales-3">
+                    <h2>Contact</h2>
+                    <p>Pour toute question ou demande relative aux mentions légales, vous pouvez contacter MDR à l'adresse suivante : <a class="mail-m-legales" href="mailto:contact@mdresports.com">contact@mdresports.com</a>.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div id="mentions-legales">
+            <h2><a href="m-légales.html" id="footer-m-legales">Mentions légales</a></h2>
+            <p>© 2023 MDR. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
