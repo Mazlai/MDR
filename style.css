@@ -113,11 +113,11 @@ button.en-savoir-plus {
     padding: 10px 20px;
     background-color: #ff5722; /* Couleur du bouton */
     color: #ffffff;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-family: 'VotrePoliceGamer', sans-serif; /* Utilisez la même police que dans le header */
 }
 
 button.en-savoir-plus:hover {
