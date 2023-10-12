@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* Main HTML */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #333333; /* Couleur de fond sombre */
+    color: #ffffff; /* Couleur du texte */
+    scroll-behavior: smooth;
+}
+
+/* Header & Footer */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #010001; /* Couleur d'arrière-plan du header */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header, footer {
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: #010001; /* Couleur d'arrière-plan de l'en-tête et du pied de page */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    transition: color 0.3s ease; /* Ajout de l'animation au changement de couleur */
+}
+
+nav a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff; /* Couleur de la ligne en dessous du texte */
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease; /* Ajout de l'animation à l'effet de survol */
+}
+
+nav a:hover {
+    color: #ff5722; /* Couleur au survol */
+}
+
+nav a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+#image-mdr {
+    width:100px;
+    height:100px;
+}
+
+/* Corps de la page */
+
+section {
+    scroll-margin-top: 140px;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section article {
+    text-align: justify;
+    font-size: 1.2em; /* Taille de la police */
+    padding: 20px 70px; /* Espacement autour du texte */
+}
+
+.accueil {
+    position: relative;
+    height: 100vh;
+}
+
+.accueil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+button.en-savoir-plus {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #ff5722; /* Couleur du bouton */
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'VotrePoliceGamer', sans-serif; /* Utilisez la même police que dans le header */
+}
+
+button.en-savoir-plus:hover {
+    background-color: #e64a19; /* Couleur au survol */
+}
+
+#presentation {
+    background-color: rgba(0, 0, 0, 0.9); /* Couleur de fond plus sombre */
+    color: #ff5722;
+}
+
+#equipe {
+    background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond encore plus sombre */
+    color: #4caf50;
+}
+
+#recrutement {
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond la plus sombre */
+    color: #2196f3;
+}
