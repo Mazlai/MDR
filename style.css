@@ -225,3 +225,58 @@ button.en-savoir-plus:hover {
     text-decoration: underline;
     transition: all 0.5s ease;
 }
+
+/* Rend le header flexible pour les petits écrans */
+@media screen and (max-width: 768px) {
+    .section-accueil {
+        scroll-margin-top: 240px;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+
+    nav a::before {
+        display: none;
+    }
+
+    .section-accueil article, #main-m-légales section article {
+        padding: 20px 30px; /* Ajustez selon vos besoins */
+    }
+
+    h1 {
+        font-size:20px;
+    }
+
+    h2 {
+        font-size:20px;
+    }
+
+    h3 {
+        font-size:18px;
+    }
+
+    p {
+        font-size:14px;
+    }
+}
+
+/* Rend les images de la section de recrutement plus petites sur les petits écrans */
+@media screen and (max-width: 768px) {
+    #image-du-z {
+        max-width: 100%;
+    }
+}
