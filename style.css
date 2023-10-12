@@ -232,6 +232,10 @@ button.en-savoir-plus:hover {
         scroll-margin-top: 240px;
     }
 
+    #main-m-légales {
+        margin-top:170px;
+    }
+
     header {
         flex-direction: column;
         text-align: center;
@@ -257,7 +261,7 @@ button.en-savoir-plus:hover {
         padding: 20px 30px; /* Ajustez selon vos besoins */
     }
 
-    h1 {
+    #main-m-légales section h1 {
         font-size:20px;
     }
 
