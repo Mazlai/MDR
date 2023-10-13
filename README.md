@@ -2,11 +2,11 @@
 
 ![Logo MDR](images/MDR.png)
 
-Bienvenue sur la page GitHub de l'équipe MDR, une équipe d'eSports passionnée de CS2.
+Bienvenue sur la page GitHub de l'équipe MDR, une équipe d'esports passionnée de CS2.
 
 ## À propos
 
-MDR va bien au-delà d'être une simple équipe d'eSports. Nous sommes une fraternité de joueurs passionnés unis par une quête commune : repousser les limites du possible dans l'univers de CS2. Chacun de nos membres apporte son propre style de jeu, sa stratégie unique et une détermination inébranlable sur le champ de bataille virtuel. Notre force réside dans notre capacité à anticiper les mouvements adverses, à coordonner nos attaques et à faire preuve d'une précision chirurgicale.
+MDR va bien au-delà d'être une simple équipe d'esports. Nous sommes une fraternité de joueurs passionnés unis par une quête commune : repousser les limites du possible dans l'univers de CS2. Chacun de nos membres apporte son propre style de jeu, sa stratégie unique et une détermination inébranlable sur le champ de bataille virtuel. Notre force réside dans notre capacité à anticiper les mouvements adverses, à coordonner nos attaques et à faire preuve d'une précision chirurgicale.
 
 ## Composition de l'équipe
 
