@@ -5,10 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    const mobileMenu = document.getElementById('mobile-menu');
-    const mainNav = document.getElementById('main-nav');
-
-    mobileMenu.addEventListener('click', function() {
-        mainNav.classList.toggle('show');
+    document.getElementById('mobile-menu').addEventListener('click', function() {
+        document.getElementById('main-nav').classList.toggle('show');
     });
 });
