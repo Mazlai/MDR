@@ -2,7 +2,7 @@
 
 ![Logo MDR](images/MDR.png)
 
-Bienvenue sur la page GitHub de l'équipe MDR, une équipe d'eSports passionnée de CS2.
+Bienvenue sur la page GitHub de l'équipe MDR, une équipe d'esports passionnée de CS2.
 
 ## À propos
 
