@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/*----- Main HTML -----*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #333333; /* Couleur de fond sombre */
+    color: #ffffff; /* Couleur du texte */
+    scroll-behavior: smooth;
+}
+
+/*----- Header & Footer -----*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #010001; /* Couleur d'arrière-plan du header */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header, footer {
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: #010001; /* Couleur d'arrière-plan de l'en-tête et du pied de page */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    transition: color 0.3s ease; /* Ajout de l'animation au changement de couleur */
+}
+
+nav a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff; /* Couleur de la ligne en dessous du texte */
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease; /* Ajout de l'animation à l'effet de survol */
+}
+
+nav a:hover {
+    color: #ff5722; /* Couleur au survol */
+}
+
+nav a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+#image-mdr {
+    width:100px;
+    height:100px;
+}
+
+/*----- Corps de la page -----*/
+
+/* Containers */
+
+.section-accueil {
+    scroll-margin-top: 140px;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section-m-legales {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#main-m-légales {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top:140px;
+}
+
+#main-m-légales section h1 {
+    text-align: center;
+    font-size: 2em; /* Taille du titre "Mentions Légales" */
+    padding-left: 10px; /* Espacement entre le texte et la barre */
+}
+
+.section-accueil article, #main-m-légales section article {
+    text-align: justify;
+    font-size: 1.2em; /* Taille de la police */
+    padding: 20px 70px; /* Espacement autour du texte */
+}
+
+.accueil {
+    position: relative;
+    height: 100vh;
+}
+
+.accueil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#presentation {
+    background-color: rgba(0, 0, 0, 0.9); /* Couleur de fond plus sombre */
+}
+
+#equipe {
+    background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond encore plus sombre */
+}
+
+#recrutement {
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond la plus sombre */
+}
+
+#presentation-article, #equipe-article, #recrutement-article {
+    border-radius:5px;
+    padding-left: 10px;
+}
+
+#presentation-article {
+    border-left: 4px solid #ff5722;
+}
+
+#equipe-article {
+    border-left: 4px solid #4caf50;
+}
+
+#recrutement-article {
+    border-left: 4px solid #2196f3;
+}
+
+/* Containers */
+
+.div-m-legales-1, .div-m-legales-2, .div-m-legales-3 {
+    border-radius:5px;
+    padding-left: 10px;
+}
+
+.div-m-legales-1 {
+    border-left: 4px solid #4caf50;
+}
+
+.div-m-legales-2 {
+    border-left: 4px solid #af784c;
+}
+
+.div-m-legales-3 {
+    border-left: 4px solid #af4c8e;
+}
+
+/*----- Boutons et autres -----*/
+
+#image-du-z {
+    display: block; /* Permet de définir des marges automatiques */
+    margin-left: auto;
+    margin-right: auto;
+    border:2px solid #ff5722;
+    border-radius:5px;
+    box-shadow: 0 0 10px white;
+}
+
+.index-title {
+    margin-bottom:60px;
+}
+
+hr {
+    width:170px;
+}
+
+.mail-m-legales {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.mail-m-legales:hover {
+    color:#ff5722;
+    text-decoration: underline;
+    transition: all 0.5s ease;
+}
+
+button.en-savoir-plus {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #ff5722; /* Couleur du bouton */
+    color: #ffffff;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.en-savoir-plus:hover {
+    background-color: #e64a19; /* Couleur au survol */
+}
+
+#footer-m-legales {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#footer-m-legales:hover {
+    color: #ff5722;
+    text-decoration: underline;
+    transition: all 0.5s ease;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20px; /* Ajustez selon vos besoins */
+    left: 20px; /* Ajustez selon vos besoins */
+    z-index: 1001; /* Assurez-vous que le bouton hamburger est au-dessus de tout le contenu */
+}
+
+.bar {
+    background: #fff;
+    height: 3px;
+    width: 25px;
+    margin: 3px auto;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Rend le header flexible pour les petits écrans */
+@media screen and (max-width: 768px) {
+    .section-accueil {
+        scroll-margin-top: 240px;
+    }
+
+    .index-title {
+        margin-bottom:15px;
+    }
+
+    #main-m-légales {
+        margin-top:170px;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        margin-top: 10px;
+        top: 130px; /* Ajustez selon vos besoins */
+        left: 0;
+        background: #010001; /* Couleur d'arrière-plan du menu */
+        width: 100%;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    nav.show, nav.show ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav.show li {
+        margin: 10px 0;
+    }
+
+    nav.show a {
+        font-size: 16px; /* Ajustez selon vos besoins */
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: none; /* On cache la liste initialement */
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+
+    nav a::before {
+        display: none;
+    }
+
+    .section-accueil article, #main-m-légales section article {
+        padding: 20px 30px; /* Ajustez selon vos besoins */
+    }
+
+    #main-m-légales section h1 {
+        font-size:20px;
+    }
+
+    h2 {
+        font-size:20px;
+    }
+
+    h3 {
+        font-size:18px;
+    }
+
+    p {
+        font-size:14px;
+    }
+}
+
+/* Rend les images de la section de recrutement plus petites sur les petits écrans */
+@media screen and (max-width: 768px) {
+    #image-du-z {
+        max-width: 100%;
+    }
+}
