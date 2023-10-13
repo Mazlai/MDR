@@ -181,6 +181,10 @@ nav a:hover::before {
     box-shadow: 0 0 10px white;
 }
 
+.index-title {
+    margin-bottom:60px;
+}
+
 hr {
     width:170px;
 }
@@ -230,6 +234,10 @@ button.en-savoir-plus:hover {
 @media screen and (max-width: 768px) {
     .section-accueil {
         scroll-margin-top: 240px;
+    }
+
+    .index-title {
+        margin-bottom:30px;
     }
 
     #main-m-légales {
