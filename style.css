@@ -230,6 +230,24 @@ button.en-savoir-plus:hover {
     transition: all 0.5s ease;
 }
 
+.menu-toggle {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20px; /* Ajustez selon vos besoins */
+    left: 20px; /* Ajustez selon vos besoins */
+    z-index: 1001; /* Assurez-vous que le bouton hamburger est au-dessus de tout le contenu */
+}
+
+.bar {
+    background: #fff;
+    height: 3px;
+    width: 25px;
+    margin: 3px auto;
+    transition: all 0.3s ease-in-out;
+}
+
 /* Rend le header flexible pour les petits écrans */
 @media screen and (max-width: 768px) {
     .section-accueil {
@@ -237,7 +255,7 @@ button.en-savoir-plus:hover {
     }
 
     .index-title {
-        margin-bottom:30px;
+        margin-bottom:15px;
     }
 
     #main-m-légales {
@@ -249,12 +267,40 @@ button.en-savoir-plus:hover {
         text-align: center;
     }
 
+    .menu-toggle {
+        display: flex;
+    }
+
     nav {
+        display: none;
+        position: absolute;
         margin-top: 10px;
+        top: 130px; /* Ajustez selon vos besoins */
+        left: 0;
+        background: #010001; /* Couleur d'arrière-plan du menu */
+        width: 100%;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    nav.show, nav.show ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav.show li {
+        margin: 10px 0;
+    }
+
+    nav.show a {
+        font-size: 16px; /* Ajustez selon vos besoins */
     }
 
     nav ul {
-        flex-direction: column;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: none; /* On cache la liste initialement */
     }
 
     nav li {
