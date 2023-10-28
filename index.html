@@ -42,7 +42,18 @@
                     <p>Chacun de nos membres apporte son propre style de jeu, sa stratégie unique et une détermination inébranlable sur le champ de bataille virtuel. </p>
                     <p>Notre force réside dans notre capacité à anticiper les mouvements adverses, à coordonner nos attaques et à faire preuve d'une précision chirurgicale.</p>
                 </div> <br> <br>
-                <img id="image-du-z" src="images/eric-zemmour-rire.gif" alt="Gif du Z">
+                <img id="image-du-z" src="images/eric-zemmour-rire.gif" alt="Gif du Z" onclick="jouerSon()">
+                <audio id="son-du-z">
+                    <source src="audio/Le Z.mp3" type="audio/mpeg">
+                    Votre navigateur ne supporte pas l'élément audio.
+                </audio>
+
+                <script>
+                    function jouerSon() {
+                        var son = document.getElementById("son-du-z");
+                        son.play();
+                    }
+                </script>
             </article>
         </section>
 
